@@ -2,9 +2,9 @@
 font-family: 'maven';
 src: 	url('../fonts/mavenpro-medium-webfont.eot');
 src: 	url('../fonts/mavenpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/mavenpro-medium-webfont.woff') format('woff'),
-		url('../fonts/mavenpro-medium-webfont.ttf') format('truetype'),
-		url('../fonts/mavenpro-medium-webfont.svg#maven_promedium') format('svg');
+url('../fonts/mavenpro-medium-webfont.woff') format('woff'),
+url('../fonts/mavenpro-medium-webfont.ttf') format('truetype'),
+url('../fonts/mavenpro-medium-webfont.svg#maven_promedium') format('svg');
 font-weight: normal;
 font-style: normal;
 }
@@ -13,9 +13,9 @@ font-style: normal;
 font-family: 'maven';
 src: 	url('../fonts/mavenpro-bold-webfont.eot');
 src: 	url('fonts/mavenpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/mavenpro-bold-webfont.woff') format('woff'),
-		url('../fonts/mavenpro-bold-webfont.ttf') format('truetype'),
-		url('../fonts/mavenpro-bold-webfont.svg#maven_probold') format('svg');
+url('../fonts/mavenpro-bold-webfont.woff') format('woff'),
+url('../fonts/mavenpro-bold-webfont.ttf') format('truetype'),
+url('../fonts/mavenpro-bold-webfont.svg#maven_probold') format('svg');
 font-weight: bold;
 font-style: normal;
 }
@@ -74,7 +74,7 @@ padding: 5px 0;
 }
 
 .push {
-	padding-left: 10px;
+padding-left: 10px;
 }
 .stripped {
 margin-top: 0;
@@ -108,9 +108,9 @@ width:100%;
 }
 
 .lists {
-	font-size: 12px;
-	margin-top: 20px;
-	margin-bottom: 0px;
+font-size: 12px;
+margin-top: 20px;
+margin-bottom: 0px;
 }
 
 .lineh3 {
@@ -123,7 +123,7 @@ font-weight: normal;
 }
 
 .textrow {
-	margin-bottom: 100px;
+margin-bottom: 100px;
 }
 
 .lineimg {
@@ -172,33 +172,45 @@ margin: -10px 0 -17px -15px;
 }
 
 .contactinfo {
-	text-align: right;
-	line-height: 17px;
+text-align: right;
+line-height: 17px;
 }
 .contactinfo img {
-	float: left;
-	margin-left: 20px;
+float: left;
 }
 
 @media (max-width: 767px) {
-.intro {
-	
-}
-body {
-padding-right: 0px;
-padding-left: 0px;
-}
-.container {
+	.intro {
+	font-size: 18px;
+	line-height: 28px;
+	}
+	body {
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+	.container {
 	margin-left: 20px;
 	margin-right: 20px;
-}
-.blackbar {
+	}
+	.blackbar {
 	margin: 20px -20px;
 	padding: 5px 20px;
-}
-.footer {
+	}
+	.footer {
 	margin-right: 0px;
-}
+	}
+	.contactinfo {
+	text-align: left;
+	}
+	.contactinfo img {
+	margin-right: 10px;
+	}
+	.dottedline {
+	margin-top: 50px;
+	}
+	.textrow {
+	margin-bottom: 0px;
+	}
 }
 
 .portfolio     { background-color:#000; }
