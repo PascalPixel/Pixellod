@@ -1,22 +1,176 @@
+@font-face {
+font-family: 'maven';
+src: 	url('../fonts/mavenpro-medium-webfont.eot');
+src: 	url('../fonts/mavenpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/mavenpro-medium-webfont.woff') format('woff'),
+		url('../fonts/mavenpro-medium-webfont.ttf') format('truetype'),
+		url('../fonts/mavenpro-medium-webfont.svg#maven_promedium') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 
+@font-face {
+font-family: 'maven';
+src: 	url('../fonts/mavenpro-bold-webfont.eot');
+src: 	url('fonts/mavenpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/mavenpro-bold-webfont.woff') format('woff'),
+		url('../fonts/mavenpro-bold-webfont.ttf') format('truetype'),
+		url('../fonts/mavenpro-bold-webfont.svg#maven_probold') format('svg');
+font-weight: bold;
+font-style: normal;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+body {
+line-height:200%;
+color:#999;
+font-family:'maven', sans-serif;
+}
 
+a:link {
+text-decoration:none;
+color:#646464;
+}
 
+a:hover {
+text-decoration: underline;
+}
 
+a:visited {
+text-decoration:none;
+color:#646464;
+}
 
+#darken {
+color:#464646;
+}
 
+#intro {
+font-size:22px;
+line-height:37px;
+padding-top: 50px;
+}
 
+.row {
+margin-top:40px;
+margin-bottom:20px;
+}
 
+#terms {
+background-color:#2a2a2a;
+font-size:x-small;
+clear:both;
+}
 
+.text-right {
+text-align:right;
+}
 
+.blackbar {
+background:#000;
+color:#999;
+font-size:18px;
+padding: 5px 0;
+}
 
+.stripped {
+margin-top: 0;
+margin-bottom: 0;
+}
 
+.xs {
+text-align: right;
+}
 
+.lighten {
+color:#fff;
+}
 
+.fill {
+text-align:justify;
+}
 
+.s {
+font-size:small;
+}
 
+.noBullets {
+list-style:none;
+margin:0;
+}
 
+.dottedline {
+border-bottom:1px dotted;
+width:100%;
+}
 
+.lineh3 {
+width: 150px;
+background: white;
+margin: -20px auto 20px;
+padding: 0 20px;
+text-align: center;
+}
+
+.lineimg {
+width: 200px;
+background: white;
+margin: -20px auto 20px;
+padding: 0 20px;
+text-align: center;
+}
+
+.betweenDottedLines {
+vertical-align:middle;
+text-align:center;
+}
+
+hr {
+height:1px;
+background-color:#c7c7c7;
+}
+
+.underlined {
+text-decoration:underline;
+}
+
+.carousel {
+background-color:transparent;
+text-align:center;
+min-height:320px;
+}
+
+.carousel .item > img {
+display:inline-block;
+}
+
+.text-center,.centered,.carousel-inner {
+text-align:center;
+}
+
+.tadaa {
+background-color:#2a2a2a;
+}
+
+.skype {
+margin: -9px 0 -22px -15px;
+}
+
+.portfolio0  { background-color:grey; }
+.portfolio1  { background-color:blue; }
+.portfolio2  { background-color:yellow; }
+.portfolio3  { background-color:blue; }
+.portfolio4  { background-color:blue; }
+.portfolio5  { background-color:blue; }
+.portfolio6  { background-color:blue; }
+.portfolio7  { background-color:blue; }
+.portfolio8  { background-color:blue; }
+.portfolio9  { background-color:blue; }
+.portfolio10 { background-color:blue; }
+.portfolio11 { background-color:blue; }
+.portfolio12 { background-color:blue; }
+.portfolio13 { background-color:blue; }
+.portfolio14 { background-color:blue; }
+.portfolio15 { background-color:blue; }
+.portfolio16 { background-color:blue; }
+.portfolio17 { background-color:blue; }
+.portfolio18 { background-color:blue; }
