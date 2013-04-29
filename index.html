@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <title>Pixellod</title>
+	    <meta name="description" content="">
+	    <meta name="viewport" content="width=device-width">
+	
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+		<style>
+			@font-face {
+		    font-family: 'maven';
+		    src: url('fonts/mavenpro-medium-webfont.eot');
+		    src: url('fonts/mavenpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/mavenpro-medium-webfont.woff') format('woff'),
+		         url('fonts/mavenpro-medium-webfont.ttf') format('truetype'),
+		         url('fonts/mavenpro-medium-webfont.svg#maven_promedium') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+			}
+			
+	       	@font-face {
+		    font-family: 'maven';
+		    src: url('fonts/mavenpro-bold-webfont.eot');
+		    src: url('fonts/mavenpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/mavenpro-bold-webfont.woff') format('woff'),
+		         url('fonts/mavenpro-bold-webfont.ttf') format('truetype'),
+		         url('fonts/mavenpro-bold-webfont.svg#maven_probold') format('svg');
+		    font-weight: bold;
+		    font-style: normal;
+			}
+			
+			body {
+			line-height:200%;
+			color:#999;
+			font-family:'maven', sans-serif;
+			}
+			
+			a:link {
+		    	text-decoration:none;
+		    	color:#646464;
+		    }
+		    
+			a:visited {
+				text-decoration:none; 
+				color:#cecece;
+			}
+			
+			a:hover {
+				text-decoration:underline;
+				color:#464646;
+			}
+			
+			a:active {
+				text-decoration:underline;
+				color:#464646;
+			}	
+						
+			#darken {
+			color:#464646;
+			}
+			
+			#intro {
+			font-size:22px;
+			line-height: 37px;
+			}
+			
+			.row {
+			margin-top:40px;
+			margin-bottom:20px;
+			}
+			
+			#terms {
+			background-color:#2a2a2a;
+			font-size:x-small;
+			clear:both;
+			}
+			
+			.text-center {
+			text-align:center;
+			}
+			
+			.text-right {
+			text-align:right;
+			}
+			
+			.blackbar {
+				background: #000;
+				color: #999;
+				font-size: 22px;
+				margin-top:-19px; 
+				margin-bottom:-19px;
+			}
+			
+			.lists {
+				margin-top: -1.5%;
+			}
+			
+			.xs {
+				line-height: 1.5em;
+			}
+			
+			.magnet {
+				margin-bottom:-3.5%;
+			}
+			
+			.lighten {
+				color:#fff;
+			}
+			
+			.fill {
+				text-align: justify;
+			}	
+			
+			.centered {
+				text-align: center;
+			}
+			
+			.xs {
+				font-size: x-small;
+			}
+			
+			.s {
+				font-size: small;
+			}
+			
+			.noBullets{
+				list-style: none;
+				margin: 0;	 
+			}	
+			
+			.dottedlineA{
+				border-bottom: 1px dotted; 
+				width: 35%			
+			}
+			
+			.dottedlineB {
+				border-bottom: 1px dotted; 
+				width: 20%;
+			}	
+			
+			.betweenDottedLines {
+				vertical-align:middle;
+				text-align:center;
+		    }	
+		    
+		    hr {
+			    height:1px;
+			    background-color: #c7c7c7;
+		    }
+		    		    
+			.underlined {
+				text-decoration: underline;
+			}	    		
+			
+			.high {
+				line-height: 1.8em;
+			}
+			
+	/*Carousel*/
+	
+			}.carousel {
+				background-color: transparent;
+				text-align: center;
+				min-height:320px;			
+			}
+			
+			.carousel-inner { 
+				text-align: center; 
+				
+			}
+
+			.carousel .item > img { 
+				display: inline-block; 
+			}
+	
+			.tadaa {
+				background-color: #2a2a2a;
+			}
+			
+			.blue {
+				background-color: #0c61a2;
+			}
+	/*End carousel*/
+			
+	</style>
+	    
+	    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	    <link rel="stylesheet" href="css/main.css">
+	
+	    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+		    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+		<![endif]-->
+		    
+		<div class="container">
+			<div class="row">
+			    <div class="span3">
+			    	<br/><img id="Logo" src="http://i.imgur.com/i9PpyXZ.png"/>
+			    </div>
+			    <div class="span9">
+				    <div id="intro"><br/>Hello and welcome to the website of <span id="darken">Pixellod</span>, a Dutch <span id="darken">creative graphic design company</span> located in Sliedrecht, Holland. Pixellod is 'a one man show' founded and run by me, Gert Jan Lodder. I'm working with clients all around the world and my specialty is <span id="darken">icon and UI design</span>.
+				    </div>
+				</div> 
+			</div>
+		</div>
+	
+	
+<div class="row">
+	<div id="myCarousel" class="carousel slide">
+				<!-- Carousel items -->
+			<div class="carousel-inner">
+					<div class="active item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/Gmo1nWj.png" alt="Cydia icon"/>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/FKTMYUo.png" alt="Cappuccino"/>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/Y0W5ANo.png" alt="Popcorn icon"/>
+						</div>
+					</div>	
+					
+					<div class="item">
+						<div class="tadaa blue">
+							<img src="http://i.imgur.com/m6HXm4s.png" alt="Weather icon"/>
+						</div>
+					</div>			
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/f7h6qs5.png" alt="Sherlock"/>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/qVngL7p.png" alt="Movie Ticket icon"/>
+						</div>
+					</div>					
+				
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/6jlHwgW.png" alt="Compass icon"/>
+						</div>
+					</div>				
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/YrDl6jH.png" alt="Trash can"/>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/YVfDXu6.png" alt="Calculator icon"/>
+						</div>
+					</div>	
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/9IyC9ZW.png" alt="Shitter icon"/>
+						</div>
+					</div>				
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/AEjDt0a.png" alt="Nikon VR Lens"/>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="tadaa">
+							<img src="http://i.imgur.com/bBZqYcM.png" alt="Watch icon"/>
+						</div>
+					</div>				
+			</div>				
+	</div>
+</div>
+		
+<div class="container  fill">
+		<div class="row">
+				<div class="span7">
+					<table  style="width:100%">
+						<tr>
+							<td class="dottedlineA">&nbsp;								</td>
+							<td class="betweenDottedLines" rowspan="2">
+								<h3>What I do</h3>
+							</td>
+							<td class="dottedlineA">&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+					
+			    	<p>I'm dedicated to creation. Creation is a process, an exploration through goals, dreams, culture, taste and ambition. That's why I excel in translating ideas into great designs. In order to achieve the best possible result I work in a transparent way. For me it's crucial to find the right and most productive way to cooperate with the client. Identifying and profiling enables me to make designs that fit the client seamlessly. I work in close cooperation with my clients with a focus on the clients of my client. I design clean, unique and pixel-perfect icons, UI's, UX's, logos, corporate identities and webs. My motto is: <em>"Price is what you pay. Value is what you get."</em> So if you're looking for a good investment and quality don't search any longer and mail me for a surprising quote!</p>
+			    </div>
+			    <div class="span5">
+			    	<table  style="width:100%">
+						<tr>
+							<td class="dottedlineA">&nbsp;								</td>
+							<td class="betweenDottedLines" rowspan="2">
+								<h3>Contact</h3>
+							</td>
+							<td class="dottedlineA">&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+			    	<p>Wanna say 'hello' or got a project you want me involved in and/or looking for a quote? Please send me an Email with name, company, project description, budget and project deadline and I'll be in touch with you shortly.
+			    		
+				    <br/><br/>
+				    
+				    	<div class="centered"><table  style="width:100%">
+						<tr>
+							<td class="dottedlineB">&nbsp;								</td>
+							<td class="betweenDottedLines" rowspan="2">
+								<img src="http://i.imgur.com/aYTRZgC.png" alt="Not available for work"/>
+							</td>
+							<td class="dottedlineB">&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table></div>
+				    
+				    <br/>
+				    <div class="centered"> 
+				    	<img src="http://i.imgur.com/Gm37Itk.png"/>
+				    	<a href="mailto:info@pixellod.com">
+				    		<strong>
+				    			<em class="underlined">
+				    				info@pixellod.com
+					    		
+				    			</em>
+				    		</strong>
+				    	</a>
+				    </div>
+				</div>	
+			</div>
+		</div>
+		
+		<hr/>
+			
+		<div class="row blackbar">
+			<div class="container lighten">
+				<div class="span3">Services</div>
+				<div class="span3">Process</div>
+				<div class="span2">Follow</div>
+				<div>Contact information</div>
+			</div>
+		</div>
+		
+		<hr/>
+			
+<div class="container magnet">
+			<div class="row lists">
+				<div class="span3">
+					<ul>
+						<li>Icon & UI Design</li>
+						<li>User Experience Design</li>
+						<li>Corporate Identity Design</li>			
+						<li>Logo Design</li>			
+						<li>Web Design</li>			
+						<li>If it's not listed....just ask!</li>
+					</ul>
+				</div>
+				<div class="span3">
+					<ul>
+						<li>Consultation/planning</li>
+						<li>(Concept) Design</li>
+						<li>Development</li>
+						<li>Completion</li>
+						<li>Maintenance/After Sales</li>
+					</ul>
+				</div>
+				<div class="span2">
+					<ul class="noBullets">
+						<li class="high">
+							<img src="http://i.imgur.com/kX6enp3.png"/>
+							<a href="https://twitter.com/aSoundForge" target="new">
+							  Twitter
+							</a>
+						</li>
+						<li class="high">
+							<img src="http://i.imgur.com/ZaIAWbi.png"/>
+							<a href="http://dribble.com/Soundforge" target="new">
+							 Dribble
+							</a>
+						</li>
+						<li class="high">
+							<img src="http://i.imgur.com/LXLWdjw.png"/>
+							<a href="http://soundforge.deviantart.com/" target="new">
+								deviantART
+							</a>
+						</li>
+						<li class="high">
+							<img src="http://i.imgur.com/IF6KKVo.png"/>
+							Skype
+						</li>
+						<li class="high">
+							<img src="http://i.imgur.com/oex5oco.png"/>
+							Forrst
+						</li>
+						<br/>
+					</ul>
+				</div>
+				<div class="span2">
+					<iframe width="100%" height="120" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.nl/maps?hl=en&amp;q=leenweer+2+sliedrecht&amp;ie=UTF8&amp;hq=&amp;hnear=Leenweer+2,+3363+XN+Sliedrecht,+Zuid-Holland&amp;gl=nl&amp;t=m&amp;z=14&amp;ll=51.828608,4.752666&amp;output=embed&amp;iwloc=near"></iframe>
+				</div>
+				<div class="span2 xs">
+					<img src="http://i.imgur.com/Y4sXiFt.png"/> 
+					<strong>Pixellod</strong>
+					<br/>
+					Leenweer 2<br/>
+					3363XN Sliedrecht<br/>
+					The Netherlands<br/><br/>
+					<img src="http://i.imgur.com/rLBqBqt.png"/> +31 6 417 22 821<br/><br/>
+					
+						<img src="http://i.imgur.com/Gm37Itk.png"/>
+						<a href="mailto:info@pixellod.com"> 							
+						info@pixellod.com
+					</a>	
+				</div>
+		</div>
+</div>
+		
+<hr/>		
+<div class="row blackbar">
+		<div class="container">
+				<div class="span12 centered s">©2013 <span class="lighten">Pixellod</span>, All Rights Reserved | <span class="lighten">Design</span> by Pixellod | <span class="lighten">KvK</span> 56330618 Rotterdam | Terms and Conditions|</div>
+		</div>
+</div>
+<hr/>
+		
+	</body>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	
+	<script src="js/vendor/bootstrap.min.js"></script>
+	
+	<script src="js/main.js"></script>
+	
+	<script>
+	    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	    s.parentNode.insertBefore(g,s)}(document,'script'));
+	    //carousel
+	    $('.carousel').carousel({
+		    interval: 4000
+		});	
+		
+		</script>
+</html>
